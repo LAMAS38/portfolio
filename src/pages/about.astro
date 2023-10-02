@@ -1,0 +1,133 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+import ContactCTA from '../components/ContactCTA.astro';
+import Hero from '../components/Hero.astro';
+---
+
+<BaseLayout title="À propos | Latifa Mahamane Salami" description="À propos de Latifa Mahamane Salami">
+	<div class="stack gap-20">
+		<main class="wrapper about">
+			<Hero
+				title="À propos"
+				tagline="Merci d'être passé. Lisez ci-dessous pour en savoir plus sur moi-même et mon parcours."
+			>
+				<img
+					width="1553"
+					height="873"
+					src="/assets/at-work.jpg"
+					alt="Latifa Mahamane Salami au travail"
+				/>
+			</Hero>
+
+			<section>
+				<h2 class="section-title">Parcours</h2>
+				<div class="content">
+					<p>
+						Originaire du Niger, mon voyage dans le monde de la technologie a débuté à l'Université Laval. 
+						Initialement inscrite en baccalauréat informatique, j'ai rapidement réalisé mon désir de 
+						diversifier mes perspectives de carrière, ce qui m'a poussée vers le génie informatique.
+					</p>
+					<p>
+						Trois ans plus tard, armée d'un éventail de compétences techniques et non techniques, 
+						je suis fière de la croissance et de l'évolution que j'ai vécues. 
+						Mon premier stage en tant qu'analyste programmeuse au ministère de l'Emploi, 
+						du Travail et de la Solidarité Sociale a été une étape charnière, me confirmant dans 
+						mon choix de carrière. La reconnaissance de mon travail à travers des offres de contrats 
+						d'emploi-étudiant pendant plus d'un an en est un témoignage.
+		
+					</p>
+					<p>
+						Ce qui me caractérise le plus, c'est ma capacité à m'adapter à de nouveaux environnements 
+						et à embrasser continuellement l'apprentissage. De nature ouverte, la communication et le 
+						partage de connaissances sont pour moi essentiels, tant dans le domaine professionnel que personnel.
+		
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Diplômes</h2>
+				<div class="content">
+					<p>
+						Baccalauréat en Génie Informatique (en cours) - Université Laval
+					</p>
+					<p> Microprogramme de formation en ingénérie en milieu pratique 2 - Génie informatique.</p>
+					<p>
+						Baccalauréat (Terminal) - Prytanée Millitaire de Niamey
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Compétences</h2>
+				<div class="content">
+					<h3>Techniques :</h3>
+					<p>Programmation (Java, Python, C++, C, C#), Conception de logiciel, Systèmes embarqués, Bases de données, Réseaux, Systèmes d'exploitation, Sécurité informatique, Génie logiciel, Interface utilisateur.</p>
+					<h3>Non Techniques :</h3>
+					<p>Travail d'équipe, Éthique professionnelle, Gestion de projet, Communication, Apprentissage continu.</p>
+					<h3>Qualités Personnelles :</h3>
+					<p>Curieuse, Autonome, Courageuse, Déterminée, Adaptable.</p>
+				</div>
+			</section>
+		</main>
+
+		<ContactCTA />
+	</div>
+</BaseLayout>
+
+<style>
+	.about {
+		display: flex;
+		flex-direction: column;
+		gap: 3.5rem;
+	}
+
+	img {
+		margin-top: 1.5rem;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-md);
+	}
+
+	section {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		color: var(--gray-200);
+	}
+
+	.section-title {
+		grid-column-start: 1;
+		font-size: var(--text-xl);
+		color: var(--gray-0);
+	}
+
+	.content {
+		grid-column: 2 / 4;
+	}
+
+	.content :global(a) {
+		text-decoration: 1px solid underline transparent;
+		text-underline-offset: 0.25em;
+		transition: text-decoration-color var(--theme-transition);
+	}
+
+	.content :global(a:hover),
+	.content :global(a:focus) {
+		text-decoration-color: currentColor;
+	}
+
+	@media (min-width: 50em) {
+		.about {
+			display: grid;
+			grid-template-columns: 1fr 60% 1fr;
+		}
+
+		.about > :global(:first-child) {
+			grid-column-start: 2;
+		}
+
+		section {
+			display: contents;
+			font-size: var(--text-lg);
+		}
+	}
+</style>
