@@ -33,7 +33,7 @@ Bien que ce travail puisse être réalisé individuellement, il est recommandé 
 <table>
   <tr class="chess-images">
     <td>
-      <img src="/assets/pychecs_UI.png" alt="Aperçu de l'interface pychecs" width="100%"/>
+      <img src="../../../public/assets/pychecs_UI.png" alt="Aperçu de l'interface pychecs" width="100%"/>
     </td>
     <td>
       <img src="/assets/Pychecs_terminal.png" alt="Aperçu du terminal" width="100%"/>
