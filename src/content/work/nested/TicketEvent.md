@@ -1,7 +1,7 @@
 ---
 title: Ticket Event
 publishDate: 2023-10-31 21:12:12
-img: /assets/TicketEvent_ex_billet.png
+img: /portfolio/assets/TicketEvent_ex_billet.png
 img_alt: Aperçu du billet electronique
 description: |
   J'ai develeppé une application de Génération de Billets Électroniques pour un Gala
@@ -37,18 +37,18 @@ L'application offre une interface utilisateur simple et intuitive. L'utilisateur
 <table>
   <tr>
     <td>
-      <img src="/assets/TicketEvent_UI.png" alt="Aperçu de l'interface" width="100%"/>
+      <img src="/portfolio/assets/TicketEvent_UI.png" alt="Aperçu de l'interface" width="100%"/>
     </td>
     <td>
-      <img src="/assets/TicketEvent_ex_billet.png" alt="Aperçu du billet" width="100%"/>
+      <img src="/portfolio/assets/TicketEvent_ex_billet.png" alt="Aperçu du billet" width="100%"/>
     </td>
   </tr>
   <tr>
     <td>
-      <img src="/assets/TicketEvent_excel.png" alt="Aperçu de la liste Excel" width="200%"/>
+      <img src="/portfolio/assets/TicketEvent_excel.png" alt="Aperçu de la liste Excel" width="200%"/>
     </td>
     <td>
-      <img src="/assets/TicketEvent_mail.png" alt="Aperçu du mail envoyé" width="200%"/>
+      <img src="/portfolio/assets/TicketEvent_mail.png" alt="Aperçu du mail envoyé" width="200%"/>
     </td>
   </tr>
 </table>

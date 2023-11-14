@@ -1,7 +1,7 @@
 ---
 title: Atlas 2023
 publishDate: 2023-11-01 00:54:00
-img: /assets/Atlas_image.png
+img: /portfolio/assets/Atlas_image.png
 img_alt: image de Atlas 2023
 description: |
   Le projet Atlas 2023 explore l'utilisation d'un robot autonome, piloté à distance par une station de base, capable de reconnaître, déplacer et aligner des cubes colorés pour recréer de manière stylisée un drapeau national.
@@ -16,7 +16,7 @@ tags:
 ## Aperçu :
 <!-- [![Aperçu du Projet Atlas 2023](/assets/Atlas2023_vid.mp4)](/assets/Atlas2023_vid.mp4) -->
 <video width="640" height="480" autoplay loop controls>
-  <source src="/assets/Atlas2023_vid2.mp4" type="video/mp4">
+  <source src="/portfolio/assets/Atlas2023_vid2.mp4" type="video/mp4">
   Votre navigateur ne prend pas en charge la vidéo.
 </video>
 

@@ -1,7 +1,7 @@
 ---
 title: Pychecs
 publishDate: 2023-11-01 08:38:00
-img: /assets/pychecs_UI.png
+img: /portfolio/assets/pychecs_UI.png
 img_alt: l'interface du jeu pychecs
 description: |
   Le projet Pychecs a été réalisé dans le cadre d'un cours universitaire avec un coéquipier. Le jeu offre la possibilité de jouer aux échecs directement à travers le terminal.
@@ -33,10 +33,10 @@ Bien que ce travail puisse être réalisé individuellement, il est recommandé 
 <table>
   <tr class="chess-images">
     <td>
-      <img src="/assets/pychecs_UI.png" alt="Aperçu de l'interface pychecs" width="100%"/>
+      <img src="/portfolio/assets/pychecs_UI.png" alt="Aperçu de l'interface pychecs" width="100%"/>
     </td>
     <td>
-      <img src="/assets/Pychecs_terminal.png" alt="Aperçu du terminal" width="100%"/>
+      <img src="/portfolio/assets/Pychecs_terminal.png" alt="Aperçu du terminal" width="100%"/>
     </td>
   </tr>
 </table>

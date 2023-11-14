@@ -1,7 +1,7 @@
 ---
 title: Muracle Préfabuleux inc.
 publishDate: 2023-11-01 02:06:00
-img: /assets/MuraclePrefabuleux_image.png
+img: /portfolio/assets/MuraclePrefabuleux_image.png
 img_alt: image de Muracle Préfabuleux inc.
 description: |
   Réalisé par une équipe de 4 personnes, dans le cadre d'un cours à l'université en collaboration avec l’entreprise Mecart pour réaliser le design de salles modulaires acoustiques utilisées dans le domaine industriel et scientifique.
@@ -13,7 +13,7 @@ tags:
 # Muracle Préfabuleux inc.
 ## Aperçu :
 <video width="640" height="480" autoplay loop controls>
-  <source src="/assets/MuraclePrefabuleux_vid2.mp4" type="video/mp4">
+  <source src="/portfolio/assets/MuraclePrefabuleux_vid2.mp4" type="video/mp4">
   Votre navigateur ne prend pas en charge la vidéo.
 </video>
 
